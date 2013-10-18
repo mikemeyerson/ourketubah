@@ -31,10 +31,18 @@ table.header tr td {
 	text-align: center;
 }
 
-table.header tr td a {
+table.header tr td p, a {
 	color: #D14D4D;
 	font-size: 20px;
 	font-weight: lighter;
+}
+
+table.gallery {
+	border-collapse: collapse; /* 'cellspacing' equivalent */
+}
+
+table.gallery td, th {
+	padding: 0; /* 'cellpadding' equivalent */
 }
 
 footer {
