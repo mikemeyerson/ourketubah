@@ -23,6 +23,20 @@ hr.style-two {
 	background-image: -o-linear-gradient(left, rgba(209,77,77,0), rgba(209,77,77,0.75), rgba(209,77,77,0)); 
 }
 
+p.blurb {
+	width: 60%;
+	color: #D14D4D;
+	text-indent: 30px;
+	text-align: left;
+}
+
+p.blurb img {
+	float: right;
+	height: 300px;
+	margin: 5px;
+	padding-left: 10px;
+}
+
 table.header {
 	width: 70%;
 }
