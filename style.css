@@ -9,8 +9,23 @@ body {
 	padding: 0;
 }
 
+.bg {
+    background-color: rgba(255, 195, 192, 0.7);
+   	position: absolute;
+   	margin-left: 15%;
+    width: 70%;
+    height: 100%;
+    border-left: thin solid #D14D4D;
+    border-right: thin solid #D14D4D;
+}
+
 h1.title {
 	font-weight: lighter;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #D14D4D;
 }
 
 hr.style-two {
@@ -22,6 +37,51 @@ hr.style-two {
 	background-image: -ms-linear-gradient(left, rgba(209,77,77,0), rgba(209,77,77,0.75), rgba(209,77,77,0));
 	background-image: -o-linear-gradient(left, rgba(209,77,77,0), rgba(209,77,77,0.75), rgba(209,77,77,0)); 
 }
+
+#header {
+	width: 70%;
+	color: #D14D4D;
+	font-size: 20px;
+	text-align: center;
+	font-weight: lighter;
+}
+
+#header ul {
+	height: auto;
+	padding: 8px 0px;
+	margin: 0px;
+}
+
+#header li {
+	display: inline;
+	padding: 20px;
+}
+
+#gallery {
+	background-color: transparent;
+	border: none;
+}
+
+#texts {
+	background-color: transparent;
+	border: none;
+}
+
+#pricing {
+	background-color: transparent;
+	border: none;
+}
+
+#about {
+	background-color: transparent;
+	border: none;
+}
+
+#contact {
+	background-color: transparent;
+	border: none;
+}
+
 
 p.blurb {
 	width: 60%;
@@ -35,20 +95,6 @@ p.blurb img {
 	height: 300px;
 	margin: 5px;
 	padding-left: 10px;
-}
-
-table.header {
-	width: 70%;
-}
-
-table.header tr td {
-	text-align: center;
-}
-
-table.header tr td p, a {
-	color: #D14D4D;
-	font-size: 20px;
-	font-weight: lighter;
 }
 
 table.gallery {

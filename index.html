@@ -9,24 +9,86 @@
 	</head>
 
 	<body>
-		<h1 class="title" style="text-align:center;font-size:80px;color:#D14D4D">Our Ketubah</h1>
+		<div class="bg">
+			<h1 class="title" style="text-align:center;font-size:80px;color:#D14D4D">Our Ketubah</h1>
 
-		<hr class="style-two" />
+			<hr class="style-two" />
+			<center>
 
-		<center>
-		<table class="header">
-			<tr>
+			<div id="header">
+				<ul>
+					<li id="h_gal">Gallery</li>
+					<li id="h_texts">Texts</li>					
+					<li id="h_price">Pricing</li>					
+					<li id="h_about">About</li>
+					<li id="h_contact">Contact</li>	
+				</ul>
+			</div>
 
-				<td><p><a href='/gallery.html'>Gallery</a></p></td>
-				<td><p><a href='/texts.html'>Texts</a></p></td>
-				<td><p><a href='/pricing.html'>Pricing</a></p></td>
-				<td><p><a href='/about.html'>About</a></p></td>
-				<td><p><a href='mailto:elyse@our-ketubah.com'>Contact</a></p></td>	
+			<br><br>
 
-			</tr>
-		</table>
-		</center>		
+			<div id="pricing" class="well hide">
+				<p class="blurb">
+					Personalized calligraphy is included with all originals and prints.<br>
+					Original designs start at $1000 plus shipping.<br>
+					Limited-edition prints of any design on the sample page are $600 plus shipping.<br>
+				</p>
+			</div>
 
+			<div id="about" class="well hide">
+				<p class="blurb">
+					<img class="artist" src="img/elyse.jpg"><br><br><br><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Elyse Stein Meyerson has been painting ketubot for five years. Formerly the senior graphic designer for the Central Park Zoo in New York, she studied at the world-renowned Bezalel Academy of Art and Design in Jerusalem and the Parsons School of Design in New York. She currently resides in Brooklyn New York with her husband and three children.<br>
+				</p>
+			</div>
+
+			<div id="texts" class="well hide">
+				<p class="blurb">
+					Couples can supple their own text or choose from a variety of religious and non-traditional
+					texts from Orthodox, Conservative, Reform, Interfaith, and Commitment ceremonies.<br><br>
+
+					These texts can be inscribed in Hebrew and English, Aramaic, or Hebrew alone.<br><br>
+
+					It is recommended that the Rabbi or officiate at your ceremony approve
+					whichever text you choose. <br>
+				</p>
+			</div>
+
+			<div id="gallery" class="well hide">
+				<table class="gallery">
+					<tr>	
+						<td><a href="img/leavesandberries.jpg" title="Leaves and Berries" data-lightbox="samples"><img src="img/leavesandberries.jpg" height="300" width="300" title="Leaves and Berries"></a></td>
+						<td><a href="img/pomegranate.jpg" title="Pomegranate Trees" data-lightbox="samples"><img src="img/pomegranate.jpg" height="300" width="300" title ="Pomegranate Trees"></a></td>
+						<td><a href="img/wattle-and-fern.jpg" title="Wattle and Fern" data-lightbox="samples"><img src="img/wattle-and-fern.jpg" height="300" width="300" title="Wattle and Fern"></a></td>
+					</tr><tr>
+						<td><a href="img/pinklilies.jpg" title="Pink Calla Lilies" data-lightbox="samples"><img src="img/pinklilies.jpg" height="300" width="300" title="Pink Calla Lilies"></a></td>
+						<td><a href="img/redwhiteroses.jpg" title="Red and White Roses" data-lightbox="samples"><img src="img/redwhiteroses.jpg" height="300" width="300" title="Red and White Roses"></a></td>
+						<td><a href="img/tulips.jpg" title="Tulips and Daffodils" data-lightbox="samples"><img src="img/tulips.jpg" height="300" width="300" title="Tulips and Daffodils"></a></td>
+					</tr><tr>
+						<td><a href="img/whitelilies.jpg" title="White Calla Lilies" data-lightbox="samples"><img src="img/whitelilies.jpg" height="300" width="300" title="White Calla Lilies"></a></td>
+						<td><a href="img/violets.jpg" title="Violets" data-lightbox="samples"><img src="img/violets.jpg" height="300" width="300" title="Violets"></a></td>
+						<td><a href="img/rhodes.jpg" title="Rhodes" data-lightbox="samples"><img src="img/rhodes.jpg" height="300" width="300" title="Rhodes"></a></td>
+					</tr><tr>
+						<td><a href="img/bess.jpg" title="Bess" data-lightbox="samples"><img src="img/bess.jpg" height="300" width="300" title="Bess"></a></td>
+						<td><a href="img/mara.jpg" title="Mara" data-lightbox="samples"><img src="img/mara.jpg" height="300" width="300" title="Mara"></a></td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="contact" class="well hide">
+				<a href='mailto:elyse@our-ketubah.com'>Contact the artist</a>
+			</div>
+
+
+			</center>		
+
+		</div>
+
+		<script src="js/jquery-2.0.3.min.js"></script>
+		<script>jQuery.noConflict();</script>
+		<script src="js/lightbox-2.6.min.js"></script>
+		<script src="main.js"></script>
+		
 	</body>
 
 	<footer>
